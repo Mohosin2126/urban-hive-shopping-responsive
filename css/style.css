@@ -65,9 +65,16 @@ width: 200px;
 
 @media screen and (max-width:576px)
  {
-    .nav-container{
+    .nav-container ,.nav-items-container{
         flex-direction: column;
     }
-
+    .nav-items-container{
+        margin-top: 20px;
+        width: 100%;
+    }
     
+    .nav-items-container .login-btn{
+        width:100%;
+        text-align: center;
+    }
 }
